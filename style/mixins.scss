@@ -1,0 +1,26 @@
+@mixin responsive($width){
+    @media screen and (max-width: $width){
+        @if $width == 700px{
+            @content;
+        }
+        @if $width == 400px{
+            @content;
+        }
+    }
+    @media screen and (min-width:$width){
+        @if $width == 710px{
+            @content;
+        }
+        @if $width == 900px{
+            @content;
+        }
+    } 
+    @media screen and (min-width:$width){
+        @if $width == 910px{
+            @content;
+        }
+        @if $width == 1500px{
+            @content;
+        }
+    }
+}

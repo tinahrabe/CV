@@ -1,0 +1,40 @@
+@import './variable.scss';
+@import './couleur.scss';
+@import './typography.scss';
+@import './mixins.scss';
+@import './base.scss';
+@import './bloc/index.scss';
+@import './element/index.scss';
+@import './page/navigation.scss';
+@import './page/accueil.scss';
+@import './page/A_propos.scss';
+@import './page/experience.scss';
+@import './page/competence.scss';
+@import './page/contact.scss';
+main{
+    width: calc(100% - 233px);
+    margin-left: 223px;
+    padding-left: 50px;
+    color: white;
+    @include responsive(700px){
+        width: calc(100% - 90px);
+        margin-left: 90px;
+        padding-left: 15px;
+        color: white;
+    }
+    @include responsive(710px){
+        width: calc(100% - 150px);
+        margin-left: 150px;
+        padding-left: 15px;
+        color: white;
+    }
+    @include responsive(910px){
+        width: calc(100% - 233x);
+        margin-left: 233px;
+        padding-left: 50px;
+        color: white;
+    }
+}
+body{
+    background-color: black;
+}

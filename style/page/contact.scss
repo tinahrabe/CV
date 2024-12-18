@@ -1,0 +1,60 @@
+.section3{
+    margin: 10rem;
+    @include responsive(700px){
+     margin: 3rem; 
+     margin-bottom: 45rem;          
+    }
+    @include responsive(710px){
+        margin: 3rem; 
+        margin-bottom: 100rem;          
+       }
+    .contact{
+        color: red;
+        text-align: center;
+        @include responsive(700px){
+         font-size: 1rem;       
+        }
+        @include responsive(710px){
+            font-size: 1.8rem;       
+           }
+    }
+    a{
+        color: white;
+        text-decoration: none;
+    }
+    p{
+        color: white;
+        font-size: 2rem;
+        margin-left: 3rem;
+        @include responsive(700px){
+                font-size: 0.5rem;
+                margin-left: 1rem;
+        }
+         @include responsive(710px){
+         font-size: 1rem;       
+        }
+    }
+    i{
+        margin-right: 2rem;
+        @include responsive(700px){
+         margin-right: 0.7rem;       
+        }
+        @include responsive(710px){
+            margin-right: 1rem;       
+           }
+    }
+    .git{
+        color: blue;
+        text-align: center;
+        font-size: 6rem;
+        @include responsive(700px){
+         font-size: 2rem;       
+        }
+        @include responsive(710px){
+            font-size: 4rem;       
+           }
+        a{
+            color: blueviolet;
+        }
+    }
+}

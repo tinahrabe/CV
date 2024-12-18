@@ -1,0 +1,48 @@
+.navigation{
+    width: 233px;
+    height: 100%;
+    @include responsive(700px){
+        width: 90px;
+    }   
+    @include responsive(710px){
+        width: 150px;
+    }   
+    @include responsive(910px){
+        width: 233px;
+    }   
+    position: fixed;
+    div{
+        display: flex;
+    }
+.nav{
+    ul{
+        margin-top: 5rem;
+        li{ 
+            text-align: center;
+            justify-content: center;
+            align-items: center;
+           margin-bottom: 4rem;
+           font-size: 1.5rem;
+           font-family: cursive;
+           font-weight: bold;
+           border-radius: 120px;
+           box-shadow: 10px 10px 5px rgba($color: #020842, $alpha: 1.0);
+           @include responsive(700px){
+            font-size: 0.5rem;
+            box-shadow: 10px 10px 5px rgba($color: #020842, $alpha: 1.0);
+            margin-bottom: 1.5rem;
+           }
+           @include responsive(710px){
+            font-size: 1rem;
+            box-shadow: 10px 10px 5px rgba($color: #020842, $alpha: 1.0);
+            margin-bottom: 3.5rem;
+           }
+           @include responsive(910px){
+            font-size: 1.5rem;
+            box-shadow: 10px 10px 5px rgba($color: #020842, $alpha: 1.0);
+            margin-bottom: 4rem;
+           }
+        }
+    }
+}
+}

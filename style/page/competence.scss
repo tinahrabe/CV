@@ -1,0 +1,133 @@
+.section2{
+    @include responsive(700px){
+         margin-bottom: 40rem;       
+    }
+    @include responsive(710px){
+               
+   }
+    .na{
+        color: red;
+        text-align: center;
+        font-family: Arial, Helvetica, sans-serif;
+        @include responsive(700px){
+         font-size: 1rem;
+         margin-left: 6rem;           
+        }
+        div{
+            @include responsive(700px){
+             margin-right: 4rem;   
+            }
+        }
+    }
+    h1{
+        color: white;
+        font-family: cursive;
+    }
+    div{
+        display: flex;
+        justify-content: space-between;
+        @include responsive(700px){
+        }
+        .dev{
+            color: rgb(41, 5, 75);
+            font-size: 2rem;
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bold;
+            @include responsive(700px){
+                    font-size: 0.9rem;
+                    text-align: center;
+            }
+              @include responsive(710px){
+                    font-size: 1.5rem;
+                    text-align: center;
+            }
+        }
+        i{
+            font-size: 2rem;
+            color: white;
+        }
+        .case1{
+            flex-direction: column;
+            margin-left: 5rem;
+            gap: 1rem;
+            @include responsive(710px){
+                margin-right: 2rem;
+            }
+            h1{
+                font-size: 1rem;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            i{
+                font-size: 2.5rem;
+                color: aqua;
+            }
+            p{
+                font-family: 'Courier New', Courier, monospace;
+                @include responsive(700px){
+                font-size: 0.7rem;
+                }
+                 @include responsive(710px){
+                
+                }
+            }
+            div{
+            align-items: center;
+            flex-direction: column;
+            border: solid 2px red;
+            border-radius: 2rem;
+            background-color: $couleur;
+            @include responsive(700px){
+             width: 7rem;   
+             height: 6.8rem;
+            }
+             @include responsive(710px){
+             width: 12rem;   
+             height: 8rem;
+            }
+            }
+        }
+        .case2{
+            flex-direction: column;
+            margin-right: 7rem;
+            h1{
+                font-size: 1rem;
+                font-family: Arial, Helvetica, sans-serif;
+                @include responsive(700px){
+                
+                }
+            }
+            i{
+                font-size: 2.5rem;
+                color: aqua;
+            }
+            p{
+                text-align: center;
+            }
+            p{
+                font-family: 'Courier New', Courier, monospace;
+                @include responsive(700px){
+                font-size: 0.7rem;
+                }
+                  @include responsive(700px){
+                
+                }
+            }
+            div{
+                align-items: center;
+                flex-direction: column;
+                border: solid 2px red;
+                border-radius: 2rem;
+                width: 15rem;
+                background-color: $couleur;
+                @include responsive(700px){
+                width: 7rem;
+                height: 7rem;
+                }
+                 @include responsive(710px){
+                width: 12rem;
+                height: 8rem;
+                }
+            }
+        }
+    }
+}

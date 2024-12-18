@@ -1,0 +1,23 @@
+.section1{
+    margin-top: -30rem;
+    div{
+        text-align: center;
+        font-size: 3rem;
+        color: red;
+        @include responsive(700px){
+           font-size: 1rem;   
+           margin-top: 2rem;      
+        }
+    }
+    ul{
+        margin-left: 4rem;
+        @include responsive(700px){
+                    text-align: center;
+                    font-size: 0.6rem;
+                    margin-top: 5rem;
+        }
+        li{
+            list-style-type: circle;
+        }
+    }
+}

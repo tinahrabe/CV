@@ -1,0 +1,24 @@
+éré, et l'action <code>default</code> est effectuée.</dd>
+
+      <dt><code>formatted</code></dt>
+      <dd>Le menu <code>formatted</code> est le menu le plus simple. Les
+      commentaires du fichier imagemap sont ignorés. Un en-tête de
+      niveau un est affiché, puis un séparateur horizontal, puis chacun
+      des liens sur une ligne séparée. L'aspect du menu est similaire à
+      celui d'un listing de répertoire.</dd>
+
+      <dt><code>semiformatted</code></dt>
+      <dd>Dans le menu <code>semiformatted</code>, les commentaires sont
+      affichés au moment où ils apparaissent dans le fichier imagemap.
+      Les lignes vides sont interprètées comme des lignes de séparation
+      HTML. Aucun en-tête ni séparateur horizontal n'est affiché. À part
+      ces différences, le menu <code>semiformatted</code> est identique
+      au menu <code>formatted</code>.</dd>
+
+      <dt><code>unformatted</code></dt>
+      <dd>Les commentaires sont affichés et les lignes vides sont
+      ignorées. N'est affiché que ce qui apparait dans le fichier
+      imagemap. Toutes les lignes de séparation HTML et les
+      en-têtes doivent être inclus en tant que commentaires dans le
+      fichier imagemap. Cela vous procure une grande souplesse pour
+      définir l'apparenc

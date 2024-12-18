@@ -1,0 +1,667 @@
+li {
+  list-style-type: none;
+  text-decoration: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.navigation {
+  width: 233px;
+  height: 100%;
+  position: fixed;
+}
+@media screen and (max-width: 700px) {
+  .navigation {
+    width: 90px;
+  }
+}
+@media screen and (min-width: 710px) {
+  .navigation {
+    width: 150px;
+  }
+}
+@media screen and (min-width: 910px) {
+  .navigation {
+    width: 233px;
+  }
+}
+.navigation div {
+  display: flex;
+}
+.navigation .nav ul {
+  margin-top: 5rem;
+}
+.navigation .nav ul li {
+  text-align: center;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 4rem;
+  font-size: 1.5rem;
+  font-family: cursive;
+  font-weight: bold;
+  border-radius: 120px;
+  box-shadow: 10px 10px 5px #020842;
+}
+@media screen and (max-width: 700px) {
+  .navigation .nav ul li {
+    font-size: 0.5rem;
+    box-shadow: 10px 10px 5px #020842;
+    margin-bottom: 1.5rem;
+  }
+}
+@media screen and (min-width: 710px) {
+  .navigation .nav ul li {
+    font-size: 1rem;
+    box-shadow: 10px 10px 5px #020842;
+    margin-bottom: 3.5rem;
+  }
+}
+@media screen and (min-width: 910px) {
+  .navigation .nav ul li {
+    font-size: 1.5rem;
+    box-shadow: 10px 10px 5px #020842;
+    margin-bottom: 4rem;
+  }
+}
+
+main section div {
+  text-align: center;
+}
+main section div .titre {
+  color: rgb(41, 5, 75);
+  font-size: 2rem;
+}
+@media screen and (max-width: 700px) {
+  main section div .titre {
+    font-size: 0.5rem;
+  }
+}
+@media screen and (min-width: 710px) {
+  main section div .titre {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 910px) {
+  main section div .titre {
+    font-size: 2rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  main section div p {
+    font-size: 0.5rem;
+  }
+}
+@media screen and (min-width: 710px) {
+  main section div p {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 910px) {
+  main section div p {
+    font-size: 1.5rem;
+  }
+}
+main section .texte {
+  line-height: 1.6;
+  max-width: 500px;
+  margin: auto;
+  background-color: rgb(41, 5, 75);
+  border-radius: 8px;
+  text-shadow: 3px 3px 3px blueviolet;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  font-family: monospace;
+  font-size: 1.8rem;
+  box-shadow: 10px 12px 15px rgb(234, 6, 5);
+}
+@media screen and (max-width: 700px) {
+  main section .texte {
+    max-width: 100px;
+    font-size: 0.3rem;
+  }
+}
+@media screen and (min-width: 710px) {
+  main section .texte {
+    max-width: 300px;
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 910px) {
+  main section .texte {
+    max-width: 450px;
+    font-size: 2rem;
+  }
+}
+main .parcours {
+  display: flex;
+  margin-top: 5rem;
+  gap: 5rem;
+}
+@media screen and (max-width: 700px) {
+  main .parcours {
+    display: contents;
+  }
+}
+main .parcours .titre2 {
+  color: red;
+}
+@media screen and (max-width: 700px) {
+  main .parcours .titre2 {
+    font-size: 0.5rem;
+  }
+}
+@media screen and (min-width: 710px) {
+  main .parcours .titre2 {
+    font-size: 1.2rem;
+  }
+}
+@media screen and (min-width: 910px) {
+  main .parcours .titre2 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 710px) {
+  main .parcours .texte2 {
+    font-size: 0.9rem;
+  }
+}
+@media screen and (min-width: 910px) {
+  main .parcours .texte2 {
+    font-size: 1rem;
+  }
+}
+main .parcours div img {
+  width: 18rem;
+  height: 20rem;
+  border-radius: 1rem;
+  box-shadow: 10px 8px 200px 10px rgb(65, 4, 116);
+}
+@media screen and (max-width: 700px) {
+  main .parcours div img {
+    width: 9rem;
+    height: 10rem;
+  }
+}
+@media screen and (min-width: 710px) {
+  main .parcours div img {
+    width: 13rem;
+    height: 15rem;
+    margin-right: 2rem;
+    margin-top: 3rem;
+  }
+}
+@media screen and (min-width: 910px) {
+  main .parcours div img {
+    width: 18rem;
+    height: 20rem;
+    margin-top: -2rem;
+  }
+}
+
+.section {
+  margin-bottom: 30rem;
+}
+.section .propos {
+  display: flex;
+  gap: 7rem;
+}
+@media screen and (max-width: 700px) {
+  .section .propos {
+    display: contents;
+    gap: 2rem;
+  }
+}
+@media screen and (min-width: 710px) {
+  .section .propos {
+    display: contents;
+  }
+}
+@media screen and (min-width: 910px) {
+  .section .propos {
+    display: flex;
+    gap: 0rem;
+  }
+}
+.section .propos div p {
+  margin-top: 5rem;
+}
+@media screen and (max-width: 700px) {
+  .section .propos div p {
+    margin-top: 1rem;
+  }
+}
+@media screen and (min-width: 910px) {
+  .section .propos div p {
+    margin-top: 6rem;
+    margin-left: 5rem;
+    font-size: 1.3rem;
+  }
+}
+.section .propos .division {
+  margin-top: 5rem;
+  border: solid 4px blue;
+  height: 15rem;
+  width: 20rem;
+  border-radius: 10px 100px 10px;
+  justify-content: center;
+  margin-top: 3rem;
+  background-color: rgb(41, 5, 75);
+}
+@media screen and (max-width: 700px) {
+  .section .propos .division {
+    margin-top: 1rem;
+    height: 10rem;
+    width: 15rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+  }
+}
+@media screen and (min-width: 710px) {
+  .section .propos .division {
+    margin-top: 1rem;
+    height: 15rem;
+    width: 20rem;
+    margin-top: 1rem;
+    margin-left: 2rem;
+    margin-left: 13rem;
+  }
+}
+@media screen and (min-width: 910px) {
+  .section .propos .division {
+    border: solid 4px blue;
+    height: 15rem;
+    width: 20rem;
+    border-radius: 10px 100px 10px;
+    justify-content: center;
+    margin-top: 7rem;
+    background-color: rgb(41, 5, 75);
+    margin-right: 5rem;
+  }
+}
+.section .propos .division .division1 {
+  display: flex;
+  gap: 4rem;
+  margin-top: 2rem;
+  margin-left: 1rem;
+}
+.section .propos .division .division1 i {
+  color: red;
+  font-size: 2rem;
+}
+@media screen and (max-width: 700px) {
+  .section .propos .division .division1 i {
+    font-size: 1.3rem;
+  }
+}
+@media screen and (min-width: 710px) {
+  .section .propos .division .division1 i {
+    font-size: 2rem;
+  }
+}
+.section .propos .division .division1 h1 {
+  font-family: "Courier New", Courier, monospace;
+}
+@media screen and (max-width: 700px) {
+  .section .propos .division .division1 h1 {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 710px) {
+  .section .propos .division .division1 h1 {
+    font-size: 1.5rem;
+  }
+}
+@media screen and (min-width: 910px) {
+  .section .propos .division .division1 h1 {
+    font-size: 1.5rem;
+  }
+}
+.section .propos .division .division2 i {
+  color: red;
+  font-size: 2rem;
+}
+@media screen and (max-width: 700px) {
+  .section .propos .division .division2 i {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 710px) {
+  .section .propos .division .division2 i {
+    font-size: 2rem;
+  }
+}
+.section .propos .division .division2 h1 {
+  font-family: "Courier New", Courier, monospace;
+  font-size: 1.4rem;
+  margin-left: 2rem;
+}
+@media screen and (max-width: 700px) {
+  .section .propos .division .division2 h1 {
+    font-size: 0.9rem;
+    margin-left: 1.8rem;
+  }
+}
+@media screen and (min-width: 710px) {
+  .section .propos .division .division2 h1 {
+    font-size: 1.5rem;
+    margin-left: 2rem;
+  }
+}
+.section .entete h4 {
+  font-weight: normal;
+  font-size: 2rem;
+  margin-top: 0.5rem;
+}
+@media screen and (max-width: 700px) {
+  .section .entete h4 {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 710px) {
+  .section .entete h4 {
+    font-size: 1rem;
+  }
+}
+.section .entete h1 {
+  color: red;
+  font-size: 3rem;
+}
+@media screen and (max-width: 700px) {
+  .section .entete h1 {
+    font-size: 0.8rem;
+  }
+}
+@media screen and (min-width: 710px) {
+  .section .entete h1 {
+    font-size: 1rem;
+  }
+}
+.section1 {
+  margin-top: -30rem;
+}
+.section1 div {
+  text-align: center;
+  font-size: 3rem;
+  color: red;
+}
+@media screen and (max-width: 700px) {
+  .section1 div {
+    font-size: 1rem;
+    margin-top: 2rem;
+  }
+}
+.section1 ul {
+  margin-left: 4rem;
+}
+@media screen and (max-width: 700px) {
+  .section1 ul {
+    text-align: center;
+    font-size: 0.6rem;
+    margin-top: 5rem;
+  }
+}
+.section1 ul li {
+  list-style-type: circle;
+}
+
+@media screen and (max-width: 700px) {
+  .section2 {
+    margin-bottom: 40rem;
+  }
+}
+.section2 .na {
+  color: red;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+@media screen and (max-width: 700px) {
+  .section2 .na {
+    font-size: 1rem;
+    margin-left: 6rem;
+  }
+}
+@media screen and (max-width: 700px) {
+  .section2 .na div {
+    margin-right: 4rem;
+  }
+}
+.section2 h1 {
+  color: white;
+  font-family: cursive;
+}
+.section2 div {
+  display: flex;
+  justify-content: space-between;
+}
+.section2 div .dev {
+  color: rgb(41, 5, 75);
+  font-size: 2rem;
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
+}
+@media screen and (max-width: 700px) {
+  .section2 div .dev {
+    font-size: 0.9rem;
+    text-align: center;
+  }
+}
+@media screen and (min-width: 710px) {
+  .section2 div .dev {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+}
+.section2 div i {
+  font-size: 2rem;
+  color: white;
+}
+.section2 div .case1 {
+  flex-direction: column;
+  margin-left: 5rem;
+  gap: 1rem;
+}
+@media screen and (min-width: 710px) {
+  .section2 div .case1 {
+    margin-right: 2rem;
+  }
+}
+.section2 div .case1 h1 {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section2 div .case1 i {
+  font-size: 2.5rem;
+  color: aqua;
+}
+.section2 div .case1 p {
+  font-family: "Courier New", Courier, monospace;
+}
+@media screen and (max-width: 700px) {
+  .section2 div .case1 p {
+    font-size: 0.7rem;
+  }
+}
+.section2 div .case1 div {
+  align-items: center;
+  flex-direction: column;
+  border: solid 2px red;
+  border-radius: 2rem;
+  background-color: rgb(41, 5, 75);
+}
+@media screen and (max-width: 700px) {
+  .section2 div .case1 div {
+    width: 7rem;
+    height: 6.8rem;
+  }
+}
+@media screen and (min-width: 710px) {
+  .section2 div .case1 div {
+    width: 12rem;
+    height: 8rem;
+  }
+}
+.section2 div .case2 {
+  flex-direction: column;
+  margin-right: 7rem;
+}
+.section2 div .case2 h1 {
+  font-size: 1rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.section2 div .case2 i {
+  font-size: 2.5rem;
+  color: aqua;
+}
+.section2 div .case2 p {
+  text-align: center;
+}
+.section2 div .case2 p {
+  font-family: "Courier New", Courier, monospace;
+}
+@media screen and (max-width: 700px) {
+  .section2 div .case2 p {
+    font-size: 0.7rem;
+  }
+}
+.section2 div .case2 div {
+  align-items: center;
+  flex-direction: column;
+  border: solid 2px red;
+  border-radius: 2rem;
+  width: 15rem;
+  background-color: rgb(41, 5, 75);
+}
+@media screen and (max-width: 700px) {
+  .section2 div .case2 div {
+    width: 7rem;
+    height: 7rem;
+  }
+}
+@media screen and (min-width: 710px) {
+  .section2 div .case2 div {
+    width: 12rem;
+    height: 8rem;
+  }
+}
+.section3 {
+  margin: 10rem;
+}
+@media screen and (max-width: 700px) {
+  .section3 {
+    margin: 3rem;
+    margin-bottom: 45rem;
+  }
+}
+@media screen and (min-width: 710px) {
+  .section3 {
+    margin: 3rem;
+    margin-bottom: 100rem;
+  }
+}
+.section3 .contact {
+  color: red;
+  text-align: center;
+}
+@media screen and (max-width: 700px) {
+  .section3 .contact {
+    font-size: 1rem;
+  }
+}
+@media screen and (min-width: 710px) {
+  .section3 .contact {
+    font-size: 1.8rem;
+  }
+}
+.section3 a {
+  color: white;
+  text-decoration: none;
+}
+.section3 p {
+  color: white;
+  font-size: 2rem;
+  margin-left: 3rem;
+}
+@media screen and (max-width: 700px) {
+  .section3 p {
+    font-size: 0.5rem;
+    margin-left: 1rem;
+  }
+}
+@media screen and (min-width: 710px) {
+  .section3 p {
+    font-size: 1rem;
+  }
+}
+.section3 i {
+  margin-right: 2rem;
+}
+@media screen and (max-width: 700px) {
+  .section3 i {
+    margin-right: 0.7rem;
+  }
+}
+@media screen and (min-width: 710px) {
+  .section3 i {
+    margin-right: 1rem;
+  }
+}
+.section3 .git {
+  color: blue;
+  text-align: center;
+  font-size: 6rem;
+}
+@media screen and (max-width: 700px) {
+  .section3 .git {
+    font-size: 2rem;
+  }
+}
+@media screen and (min-width: 710px) {
+  .section3 .git {
+    font-size: 4rem;
+  }
+}
+.section3 .git a {
+  color: blueviolet;
+}
+
+main {
+  width: calc(100% - 233px);
+  margin-left: 223px;
+  padding-left: 50px;
+  color: white;
+}
+@media screen and (max-width: 700px) {
+  main {
+    width: calc(100% - 90px);
+    margin-left: 90px;
+    padding-left: 15px;
+    color: white;
+  }
+}
+@media screen and (min-width: 710px) {
+  main {
+    width: calc(100% - 150px);
+    margin-left: 150px;
+    padding-left: 15px;
+    color: white;
+  }
+}
+@media screen and (min-width: 910px) {
+  main {
+    width: calc(100% - 233x);
+    margin-left: 233px;
+    padding-left: 50px;
+    color: white;
+  }
+}
+
+body {
+  background-color: black;
+}
+
+/*# sourceMappingURL=style.css.map */

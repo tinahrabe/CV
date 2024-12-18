@@ -1,0 +1,143 @@
+.section{
+    margin-bottom: 30rem;
+    .propos{
+        display: flex;
+        gap: 7rem;
+        @include responsive(700px){
+            display: contents;
+            gap: 2rem;
+        }
+        @include responsive(710px){
+            display: contents;
+        }
+        @include responsive(910px){
+            display: flex;
+            gap: 0rem;
+          }
+        div{
+            p{
+                margin-top: 5rem;
+                @include responsive(700px){
+                    margin-top: 1rem;
+                }
+                @include responsive(910px){
+                    margin-top: 6rem;
+                    margin-left: 5rem;
+                    font-size: 1.3rem;
+
+                }
+            } 
+        }
+        .division{
+            margin-top: 5rem;
+            border: solid 4px blue;
+            height: 15rem;
+            width: 20rem;
+            border-radius: 10px 100px 10px;
+            justify-content: center;
+            margin-top: 3rem;
+            background-color: rgb(41, 5, 75);
+            @include responsive(700px){
+                margin-top: 1rem;
+                height: 10rem;
+                width: 15rem;
+                margin-top: 1rem;
+                margin-left: 2rem;
+            }
+            @include responsive(710px){
+                margin-top: 1rem;
+                height: 15rem;
+                width: 20rem;
+                margin-top: 1rem;
+                margin-left: 2rem;
+                margin-left: 13rem;
+            }
+            @include responsive(910px){
+            border: solid 4px blue;
+            height: 15rem;
+            width: 20rem;
+            border-radius: 10px 100px 10px;
+            justify-content: center;
+            margin-top: 7rem;
+            background-color: rgb(41, 5, 75);
+            margin-right: 5rem;
+            }
+            .division1{
+                display: flex;
+                gap: 4rem;
+                margin-top: 2rem;
+                margin-left: 1rem;
+                i{
+                    color: red;
+                    font-size: 2rem;
+                    @include responsive(700px){
+                        font-size: 1.3rem;
+                    }
+                    @include responsive(710px){
+                        font-size: 2rem;
+                    }
+                }
+                h1{
+                    font-family: 'Courier New', Courier, monospace;
+                    @include responsive(700px){
+                        font-size: 1rem;
+                    }
+                    @include responsive(710px){
+                        font-size: 1.5rem;
+                    }
+                    @include responsive(910px){
+                        font-size: 1.5rem;
+                    }
+                }
+            }
+            .division2{
+                i{
+                    color: red;
+                    font-size: 2rem;
+                    @include responsive(700px){
+                        font-size: 1rem;
+                    }
+                    @include responsive(710px){
+                        font-size: 2rem;
+                    }
+                }
+                h1{
+                    font-family: 'Courier New', Courier, monospace;
+                    font-size: 1.4rem;
+                    margin-left: 2rem;
+                    @include responsive(700px){
+                        font-size: 0.9rem;
+                        margin-left: 1.8rem;
+                    }
+                    @include responsive(710px){
+                        font-size: 1.5rem;
+                        margin-left: 2rem;
+                    }
+                }
+            }
+        }
+        }
+        .entete{
+            h4{
+                font-weight: normal;
+                font-size: 2rem;
+                margin-top: 0.5rem;
+                @include responsive(700px){
+                    font-size: 0.8rem;
+                }
+                @include responsive(710px){
+                    font-size: 1rem;
+                }
+               }
+               h1{
+                color: red;
+                font-size: 3rem;
+                @include responsive(700px){
+                    font-size: 0.8rem;
+                }
+                @include responsive(710px){
+                    font-size: 1rem;
+                }
+               }
+        }
+    }
